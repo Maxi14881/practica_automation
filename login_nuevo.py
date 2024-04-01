@@ -20,7 +20,7 @@ btn_login= driver.find_element(By.ID,"login-button").click()
 
 titulo=driver.find_element(By.CSS_SELECTOR,"#inventory_filter_container > div")
 
-if titulo.text == "Products" :
+if titulo.text == "Product" :
     print("Test correcto")
 else:
     print("Error")
