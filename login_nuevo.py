@@ -10,7 +10,7 @@ driver.get("https://www.saucedemo.com/v1/")  # Cargo en el navegador
 
 time.sleep(3)
 
-txt_usuario = driver.find_element(By.ID,"user-name")
+txt_usuario = driver.find_element(By.ID,"user-nam")
 txt_usuario.send_keys("standard_user")
 
 txt_clave = driver.find_element(By.ID,"password")
