@@ -16,7 +16,7 @@ time.sleep(3)
 txt_usuario = driver.find_element(By.ID, "user-name")
 txt_usuario.send_keys("standard_user")
 
-txt_clave = driver.find_element(By.ID, "password")
+txt_clave = driver.find_element(By.ID, "pasword")
 txt_clave.send_keys("secret_sauce")
 
 # Hacer clic en el botón de login
