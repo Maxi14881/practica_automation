@@ -9,7 +9,7 @@ video_url = "https://youtu.be/dJOMbnyzNNU?si=A0MkaWk547qMSfvY"
 video_duration = 5 * 60 + 28
 
 # Número de veces que queremos que el video se reproduzca
-repeat_count = 1
+repeat_count = 9
 
 # Iniciar el navegador
 driver = webdriver.Chrome()
