@@ -12,7 +12,7 @@ video_duration = 2 * 60 + 10
 repeat_count = 1
 
 # Iniciar el navegador
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 
 
 for _ in range(repeat_count):
